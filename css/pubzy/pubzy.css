@@ -1,0 +1,658 @@
+@font-face {
+  font-family: 'pubzy';
+  src:
+    url('fonts/pubzy.ttf?1p0hgc') format('truetype'),
+    url('fonts/pubzy.woff?1p0hgc') format('woff'),
+    url('fonts/pubzy.svg?1p0hgc#pubzy') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.pubz {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'pubzy' !important;
+    speak: none;
+    display: inline-block;
+    text-rendering: auto;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: middle;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pubz-castawaybeats:before {
+  content: "\e9e9";
+}
+.pubz-facebook:before {
+  content: "\e900";
+}
+.pubz-recent-activity-clock:before {
+  content: "\e901";
+}
+.pubz-zere:before {
+  content: "\e902";
+}
+.pubz-Ts3:before {
+  content: "\e903";
+}
+.pubz-gametracker:before {
+  content: "\e905";
+}
+.pubz-ZayonArts:before {
+  content: "\e907";
+}
+.pubz-envelopefile:before {
+  content: "\e92a";
+}
+.pubz-group:before {
+  content: "\e974";
+}
+.pubz-timeline:before {
+  content: "\e978";
+}
+.pubz-videoplayer:before {
+  content: "\e982";
+}
+.pubz-worldwide:before {
+  content: "\e984";
+}
+.pubz-archive:before {
+  content: "\e986";
+}
+.pubz-coffee:before {
+  content: "\e990";
+}
+.pubz-envelopefile2:before {
+  content: "\e996";
+}
+.pubz-colorpalette:before {
+  content: "\e9a0";
+}
+.pubz-pen:before {
+  content: "\e9a2";
+}
+.pubz-printer:before {
+  content: "\e9aa";
+}
+.pubz-waste:before {
+  content: "\e9b4";
+}
+.pubz-checklist:before {
+  content: "\e9bc";
+}
+.pubz-connecteduser:before {
+  content: "\e9bd";
+}
+.pubz-settinggears:before {
+  content: "\e9dc";
+}
+.pubz-settingsgear:before {
+  content: "\e9dd";
+}
+.pubz-settingspanner:before {
+  content: "\e9de";
+}
+.pubz-settingswithhammer:before {
+  content: "\e9df";
+}
+.pubz-settingtools:before {
+  content: "\e9e0";
+}
+.pubz-toolssymbol:before {
+  content: "\e9e5";
+}
+.pubz-PubZoneP:before {
+  content: "\e9ea";
+}
+.pubz-UnreadBulb:before {
+  content: "\e9eb";
+}
+.pubz-ReadBulb:before {
+  content: "\e9ec";
+}
+.pubz-UnreadCubes:before {
+  content: "\e9ed";
+}
+.pubz-ReadCubes:before {
+  content: "\e9ee";
+}
+.pubz-UnreadZ:before {
+  content: "\e9ef";
+}
+.pubz-ReadZ:before {
+  content: "\e9f0";
+}
+.pubz-admin:before {
+  content: "\e9f2";
+}
+.pubz-businessman:before {
+  content: "\e9f3";
+}
+.pubz-joystick:before {
+  content: "\e9f4";
+}
+.pubz-livechat:before {
+  content: "\e9f5";
+}
+.pubz-medal:before {
+  content: "\e9f6";
+}
+.pubz-menu:before {
+  content: "\e9f7";
+}
+.pubz-musicandmultimedia:before {
+  content: "\e9f8";
+}
+.pubz-oklikehandsign:before {
+  content: "\e9f9";
+}
+.pubz-paint:before {
+  content: "\e9fa";
+}
+.pubz-paintboardandbrush:before {
+  content: "\e9fb";
+}
+.pubz-passport:before {
+  content: "\e9fc";
+}
+.pubz-problem:before {
+  content: "\e9fd";
+}
+.pubz-rating:before {
+  content: "\e9fe";
+}
+.pubz-roll:before {
+  content: "\e9ff";
+}
+.pubz-seoandweb:before {
+  content: "\ea00";
+}
+.pubz-seo-web:before {
+  content: "\ea01";
+}
+.pubz-login:before {
+  content: "\ea02";
+}
+.pubz-statistics:before {
+  content: "\ea05";
+}
+.pubz-talk:before {
+  content: "\ea06";
+}
+.pubz-total-members:before {
+  content: "\ea08";
+}
+.pubz-brush1:before {
+  content: "\ea0a";
+}
+.pubz-adobe-photoshop:before {
+  content: "\ea0b";
+}
+.pubz-calendar1:before {
+  content: "\ea0c";
+}
+.pubz-crowdofusers:before {
+  content: "\ea0d";
+}
+.pubz-trust:before {
+  content: "\ea15";
+}
+.pubz-fingerprint:before {
+  content: "\ea16";
+}
+.pubz-ui:before {
+  content: "\ea17";
+}
+.pubz-idcard:before {
+  content: "\ea18";
+}
+.pubz-group1:before {
+  content: "\ea19";
+}
+.pubz-id:before {
+  content: "\ea1b";
+}
+.pubz-user1:before {
+  content: "\ea1c";
+}
+.pubz-ReadLines:before {
+  content: "\ea1d";
+}
+.pubz-UnreadLines:before {
+  content: "\ea1e";
+}
+.pubz-Z-Total-Topics:before {
+  content: "\ea1f";
+}
+.pubz-Z-Total-Posts:before {
+  content: "\ea20";
+}
+.pubz-Z-Posts:before {
+  content: "\e904";
+}
+.pubz-Cyber-Designs-Logo:before {
+  content: "\e906";
+}
+.pubz-wi-fi-signal:before {
+  content: "\e908";
+}
+.pubz-tie:before {
+  content: "\e909";
+}
+.pubz-table:before {
+  content: "\e90a";
+}
+.pubz-storage-arhive:before {
+  content: "\e90b";
+}
+.pubz-print:before {
+  content: "\e90c";
+}
+.pubz-plain-page:before {
+  content: "\e90d";
+}
+.pubz-pin-thumb:before {
+  content: "\e90e";
+}
+.pubz-phone-notify:before {
+  content: "\e90f";
+}
+.pubz-pencils:before {
+  content: "\e910";
+}
+.pubz-others:before {
+  content: "\e911";
+}
+.pubz-laptop:before {
+  content: "\e912";
+}
+.pubz-lamp:before {
+  content: "\e913";
+}
+.pubz-graph-4:before {
+  content: "\e914";
+}
+.pubz-graph-3:before {
+  content: "\e915";
+}
+.pubz-graph-2:before {
+  content: "\e916";
+}
+.pubz-graph:before {
+  content: "\e917";
+}
+.pubz-geanta:before {
+  content: "\e918";
+}
+.pubz-gaming-thrash:before {
+  content: "\e919";
+}
+.pubz-gaming-chair:before {
+  content: "\e91a";
+}
+.pubz-envelope5:before {
+  content: "\e91b";
+}
+.pubz-envelope4:before {
+  content: "\e91c";
+}
+.pubz-envelope3:before {
+  content: "\e91d";
+}
+.pubz-coffe-1:before {
+  content: "\e91e";
+}
+.pubz-clock:before {
+  content: "\e91f";
+}
+.pubz-chat-2:before {
+  content: "\e920";
+}
+.pubz-calculator:before {
+  content: "\e921";
+}
+.pubz-book:before {
+  content: "\e922";
+}
+.pubz-agrafe:before {
+  content: "\e923";
+}
+.pubz-savage-1:before {
+  content: "\e924";
+}
+.pubz-work-tools-1:before {
+  content: "\e925";
+}
+.pubz-simple-phone:before {
+  content: "\e926";
+}
+.pubz-signal-tower:before {
+  content: "\e927";
+}
+.pubz-signal-satelite:before {
+  content: "\e928";
+}
+.pubz-plane-2:before {
+  content: "\e929";
+}
+.pubz-pin-thumb-2:before {
+  content: "\e92b";
+}
+.pubz-photo-camera-1:before {
+  content: "\e92c";
+}
+.pubz-phone-1:before {
+  content: "\e92d";
+}
+.pubz-old-phone:before {
+  content: "\e92e";
+}
+.pubz-music-note-1:before {
+  content: "\e92f";
+}
+.pubz-multi-cogs-1:before {
+  content: "\e930";
+}
+.pubz-mic-on:before {
+  content: "\e931";
+}
+.pubz-man-in-black:before {
+  content: "\e932";
+}
+.pubz-list-2:before {
+  content: "\e933";
+}
+.pubz-internet-navigation:before {
+  content: "\e934";
+}
+.pubz-home-2:before {
+  content: "\e935";
+}
+.pubz-heart-1:before {
+  content: "\e936";
+}
+.pubz-glasses-1:before {
+  content: "\e937";
+}
+.pubz-gas-station-1:before {
+  content: "\e938";
+}
+.pubz-full-battery-1:before {
+  content: "\e939";
+}
+.pubz-foorfeche:before {
+  content: "\e93a";
+}
+.pubz-envelope7:before {
+  content: "\e93b";
+}
+.pubz-envelope6:before {
+  content: "\e93c";
+}
+.pubz-chat-21:before {
+  content: "\e93d";
+}
+.pubz-case-2:before {
+  content: "\e93e";
+}
+.pubz-bicicle-1:before {
+  content: "\e93f";
+}
+.pubz-baggage-carrier:before {
+  content: "\e940";
+}
+.pubz-advanced-thrash:before {
+  content: "\e941";
+}
+.pubz-pencil-2:before {
+  content: "\e942";
+}
+.pubz-loupee:before {
+  content: "\e943";
+}
+.pubz-lock-1:before {
+  content: "\e944";
+}
+.pubz-graph-7:before {
+  content: "\e945";
+}
+.pubz-graph-6:before {
+  content: "\e946";
+}
+.pubz-graph-5:before {
+  content: "\e947";
+}
+.pubz-case-3:before {
+  content: "\e948";
+}
+.pubz-bingo:before {
+  content: "\e949";
+}
+.pubz-bell-notify:before {
+  content: "\e94a";
+}
+.pubz-announcer-1:before {
+  content: "\e94b";
+}
+.pubz-abstract-v-8:before {
+  content: "\e94c";
+}
+.pubz-abstract-v-7:before {
+  content: "\e94d";
+}
+.pubz-abstract-v-6:before {
+  content: "\e94e";
+}
+.pubz-abstract-v-5:before {
+  content: "\e94f";
+}
+.pubz-abstract-v-4:before {
+  content: "\e950";
+}
+.pubz-abstract-v-3:before {
+  content: "\e951";
+}
+.pubz-abstract-v-2:before {
+  content: "\e952";
+}
+.pubz-abstract-v-1:before {
+  content: "\e953";
+}
+.pubz-money-on-the-map-1:before {
+  content: "\e954";
+}
+.pubz-csgo-3:before {
+  content: "\e955";
+}
+.pubz-csgo-2:before {
+  content: "\e956";
+}
+.pubz-csgo-1:before {
+  content: "\e957";
+}
+.pubz-Eye-4:before {
+  content: "\e958";
+}
+.pubz-Eye-3:before {
+  content: "\e959";
+}
+.pubz-Eye-2:before {
+  content: "\e95a";
+}
+.pubz-Eye-1:before {
+  content: "\e95b";
+}
+.pubz-ReLickW:before {
+  content: "\e95c";
+}
+.pubz-Gun-War-6:before {
+  content: "\e95d";
+}
+.pubz-Gun-War-5:before {
+  content: "\e95e";
+}
+.pubz-Gun-War-4:before {
+  content: "\e95f";
+}
+.pubz-Gun-War-3:before {
+  content: "\e960";
+}
+.pubz-Gun-War-2:before {
+  content: "\e961";
+}
+.pubz-Gun-War-1:before {
+  content: "\e962";
+}
+.pubz-IT-1:before {
+  content: "\e963";
+}
+.pubz-IT-2:before {
+  content: "\e964";
+}
+.pubz-IT-3:before {
+  content: "\e965";
+}
+.pubz-IT-4:before {
+  content: "\e966";
+}
+.pubz-IT-5:before {
+  content: "\e967";
+}
+.pubz-IT-6:before {
+  content: "\e968";
+}
+.pubz-IT-7:before {
+  content: "\e969";
+}
+.pubz-IT-8:before {
+  content: "\e96a";
+}
+.pubz-IT-9:before {
+  content: "\e96b";
+}
+.pubz-IT-10:before {
+  content: "\e96c";
+}
+.pubz-IT-11:before {
+  content: "\e96d";
+}
+.pubz-IT-12:before {
+  content: "\e96e";
+}
+.pubz-IT-13:before {
+  content: "\e96f";
+}
+.pubz-IT-14:before {
+  content: "\e970";
+}
+.pubz-IT-15:before {
+  content: "\e971";
+}
+.pubz-IT-16:before {
+  content: "\e972";
+}
+.pubz-IT-17:before {
+  content: "\e973";
+}
+.pubz-IT-18:before {
+  content: "\e975";
+}
+.pubz-IT-19:before {
+  content: "\e976";
+}
+.pubz-IT-20:before {
+  content: "\e977";
+}
+.pubz-IT-21:before {
+  content: "\e979";
+}
+.pubz-IT-22:before {
+  content: "\e97a";
+}
+.pubz-IT-23:before {
+  content: "\e97b";
+}
+.pubz-IT-24:before {
+  content: "\e97c";
+}
+.pubz-IT-25:before {
+  content: "\e97d";
+}
+.pubz-IT-26:before {
+  content: "\e97e";
+}
+.pubz-Drink-1:before {
+  content: "\e97f";
+}
+.pubz-Drink-2:before {
+  content: "\e980";
+}
+.pubz-Drink-3:before {
+  content: "\e981";
+}
+.pubz-Drink-4:before {
+  content: "\e983";
+}
+.pubz-Fighting-1:before {
+  content: "\e985";
+}
+.pubz-Fighting-2:before {
+  content: "\e987";
+}
+.pubz-Fighting-3:before {
+  content: "\e988";
+}
+.pubz-Fighting-4:before {
+  content: "\e989";
+}
+.pubz-Fighting-5:before {
+  content: "\e98a";
+}
+.pubz-Fighting-6:before {
+  content: "\e98b";
+}
+.pubz-Fighting-7:before {
+  content: "\e98c";
+}
+.pubz-Fighting-8:before {
+  content: "\e98d";
+}
+.pubz-Fighting-9:before {
+  content: "\e98e";
+}
+.pubz-Fighting-10:before {
+  content: "\e98f";
+}
+.pubz-Fighting-11:before {
+  content: "\e991";
+}
+.pubz-Cs-16:before {
+  content: "\e992";
+}
+.pubz-Unlocked-1:before {
+  content: "\e993";
+}
+.pubz-angry-pumpkin:before {
+  content: "\e994";
+}
+.pubz-pumpkin-3:before {
+  content: "\e995";
+}
+.pubz-pumpkin-2:before {
+  content: "\e997";
+}
+.pubz-spooky:before {
+  content: "\e998";
+}
+.pubz-pumpkin-1:before {
+  content: "\e999";
+}
+.pubz-pumpkin:before {
+  content: "\e99a";
+}
+

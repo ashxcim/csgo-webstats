@@ -1,0 +1,331 @@
+:root{
+    /* Orange Colors for Gradient */
+    --or1: #f7b71d;
+    --or2: #f57114;
+    --or3: #f7921d;
+    --or1rgb: 247,183,29;
+    --or2rgb: 245,113,20;
+    --or1shadow: #f7b71d33;
+    --or1v2shadow: #f7b71db3;
+    --or1v3shadow: #f7b71d5e;
+    --or1v4shadow: #f7b71d73;
+    --or1v5shadow: #f7b71d24;
+    --red1shadow: #ff312724;
+    --green1shadow: #26a03424;
+    --yBorderColor: #fbc92c;
+    --usergroupafter: rgba(246, 150, 27,0.3);
+
+    /* Cs:Go Variables */
+    --Counter: #5d79ae;
+    --Tero: #de9b35;
+    --Spec: #939393;
+    --x07: #FD4140;
+    --x09: #F0E37B;
+    --x10: #E0AC3C;
+
+    --HCounter: #8b9ab6;
+    --HTero: #ddaf69;
+    --HSpec: #c5c5c5;
+    --Hx07: #ff6e6e;
+    --Hx09: #ece6b3;
+    --Hx10: #d8ba7b;
+  
+    /* Tag Colors */
+    --TagColor: #b63f3f91;
+    
+    /* Hidden */
+    --bgHiddenTopic: #d4525214;
+    --bgHiddenPost: #d4525214;
+    --lockHiddenColor: #d4525285;
+    --borderHiddenColor: #d4525285;
+  
+    /* Section Title's & Main Title's */
+    --bg: repeat fixed url(img/noisy-grey-bg.png);
+  
+    /* Footer */
+    --bl1: #262626;
+    --bgFooterBox: #00000045;
+    --bgFooterBox2: #0000004f;
+
+    /* Variabile Fonturi */
+    --AdvPro: "Advent Pro", sans-serif;
+    --DanScr: "Dancing Script", cursive;
+    --Exo: "Exo", sans-serif;
+    --Exo2: "Exo 2", sans-serif;
+    --GothA1: "Gothic A1", sans-serif;
+    --Jura: "Jura", sans-serif;
+    --KauScr: "Kaushan Script", cursive;
+    --Lobster: "Lobster", cursive;
+    --Oswald: "Oswald", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+    --RobCon: "Roboto Condensed", sans-serif;
+    --RobMon: "Roboto Mono", monospace;
+    --RobSla: "Roboto Slab", serif;
+    --Sai: "Saira", sans-serif;
+    --SaiCon: "Saira Condensed", sans-serif;
+    --SaiExCon: "Saira Extra Condensed", sans-serif;
+    
+    /* Letter Spacing */
+    --LS0: 0px;
+    --LS01: 0.1px;
+    --LS02: 0.2px;
+    --LS03: 0.3px;
+    --LS04: 0.4px;
+    --LS05: 0.5px;
+    --LS06: 0.6px;
+    --LS07: 0.7px;
+    --LS08: 0.8px;
+    --LS09: 0.9px;
+    --LS1: 1px;
+    --LS11: 1.1px;
+    --LS12: 1.2px;
+    --LS13: 1.3px;
+    --LS14: 1.4px;
+    --LS15: 1.5px;
+    --LS16: 1.6px;
+    --LS17: 1.7px;
+    --LS18: 1.8px;
+    --LS19: 1.9px;
+    --LS2: 2px;
+  
+    /* Font Weight */
+    --FW1: 100;
+    --FW2: 200;
+    --FW3: 300;
+    --FW4: 400;
+    --FW5: 500;
+    --FW6: 600;
+    --FW7: 700;
+    --FW8: 800;
+    --FW9: 900;
+    --FWL: Lighter;
+    --FWN: Normal;
+    --FWB: Bold;
+    --FWBB: Bolder;
+  
+    /* Border Style Variables */
+    --bor1Sor1: 1px solid var(--or1);
+    --bor1Sor2: 1px solid var(--or2);
+    --bor1Sor2: 1px solid var(--or3);
+  
+    --bor1Dor1: 1px dashed var(--or1);
+    --bor1Dor2: 1px dashed var(--or2);
+    --bor1Dor2: 1px dashed var(--or3);
+  
+    --bor1Sor1s: 1px solid var(--or1shadow);
+    --bor1Sor2s: 1px solid var(--or1v2shadow);
+    --bor1Sor3s: 1px solid var(--or1v3shadow);
+    --bor1Sor4s: 1px solid var(--or1v4shadow);
+    --bor1Sor5s: 1px solid var(--or1v5shadow);
+  
+    --bor1Dor1s: 1px dashed var(--or1shadow);
+    --bor1Dor2s: 1px dashed var(--or1v2shadow);
+    --bor1Dor3s: 1px dashed var(--or1v3shadow);
+    --bor1Dor4s: 1px dashed var(--or1v4shadow);
+    --bor1Dor5s: 1px dashed var(--or1v5shadow);
+  
+    --bor1Son: 1px solid var(--Online);
+    --bor1Don: 1px dashed var(--Online);
+  
+    --bor1Soff: 1px solid var(--Offline);
+    --bor1Doff: 1px dashed var(--Offline);
+  
+    --bor1Sdc: 1px solid var(--darkerColor);
+    --bor1Ddc: 1px dashed var(--darkerColor);
+  
+    --bor1Sddc: 1px solid var(--darkdarkerColor);
+    --bor1Dddc: 1px dashed var(--darkdarkerColor);
+  
+    --bor1Sdddc: 1px solid var(--ddarkdarkerColor);
+    --bor1Ddddc: 1px dashed var(--ddarkdarkerColor);
+  
+    /* ipsColors */
+    --ipsLight: #939393;
+    --ipsWarning: var(--Locked2);
+    --ipsNegative: var(--Locked2);
+    --ipsSpammer: #990000;
+    --ipsIssue: #d69625;
+    --ipsSuccess: #26a034;
+    --ipsPositive: #26a034;
+    --ipsNeutral: #959595;
+    
+    --ipsPositivev5s: #26a03424;
+    --ipsNegativev5s: #AD102624;
+    
+    --bor1SipsP5s: 1px solid var(--ipsPositivev5s);
+    --bor1DipsP5s: 1px dashed var(--ipsPositivev5s);
+    --bor1SipsN5s: 1px solid var(--ipsNegativev5s);
+    --bor1DipsN5s: 1px dashed var(--ipsNegativev5s);
+    
+    /* Badges Colors */
+    --ipsBadge_new: var(--or1);
+    --ipsBadge_Hidden: var(--lockHiddenColor);
+    --ipsBadge_neutral: #616161;
+    --ipsBadge_intermediary: var(--ipsIssue);
+    --ipsBadge_positive: var(--Online);
+    --ipsBadge_steam: #86b5d9;
+  
+    /* Online / Offline */
+    --Online: #26a034;
+    --Offline: #E10A00;
+    --onlinetag: #26a034;
+    --onlinetag2: #175f1f;
+    --offlinetag: #ff3127;
+    --offlinetag2: #800000;
+  
+    /* Profile */
+    --warningTransRed: #ff312729;
+  
+    /* Sexy Gradients */
+    --sexyGradient: linear-gradient(90deg, var(--bgColorTransparent), var(--or1), var(--bgColorTransparent));
+    --sexyGradient159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--or1) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradient258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--or1) 50%, var(--bgColorTransparent) 80%);
+  
+    /* Sexy Gradients v4 */
+    --sexyGradient4s: linear-gradient(90deg, var(--bgColorTransparent), var(--or1v4shadow), var(--bgColorTransparent));
+    --sexyGradient4s159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--or1v4shadow) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradient4s258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--or1v4shadow) 50%, var(--bgColorTransparent) 80%);
+  
+    /* Online */
+    --sexyGradientOn: linear-gradient(90deg, var(--bgColorTransparent), var(--Online), var(--bgColorTransparent));
+    --sexyGradientOn159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--Online) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradientOn258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--Online) 50%, var(--bgColorTransparent) 80%);
+  
+    /* Offline */
+    --sexyGradientOff: linear-gradient(90deg, var(--bgColorTransparent), var(--Offline), var(--bgColorTransparent));
+    --sexyGradientOff159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--Offline) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradientOff258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--Offline) 50%, var(--bgColorTransparent) 80%);
+  
+    /* Darker */
+    --sexyGradientDark: linear-gradient(90deg, var(--bgColorTransparent), var(--darkerColor), var(--bgColorTransparent));
+    --sexyGradientDark159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--darkerColor) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradientDark258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--darkerColor) 50%, var(--bgColorTransparent) 80%);
+  
+    /* Dark-Darker */
+    --sexyGradientDDark: linear-gradient(90deg, var(--bgColorTransparent), var(--darkdarkerColor), var(--bgColorTransparent));
+    --sexyGradientDDark159: linear-gradient(90deg, var(--bgColorTransparent) 10%, var(--darkdarkerColor) 50%, var(--bgColorTransparent) 90%);
+    --sexyGradientDDark258: linear-gradient(90deg, var(--bgColorTransparent) 20%, var(--darkdarkerColor) 50%, var(--bgColorTransparent) 80%);
+  
+    /* psSidebarProfile */
+    --pssBgColor: #00000030;
+    --pssBg1: #00000000;
+    --pssBorderColor: #00000050;
+    --activeText: #000000b8;
+  
+    /* psSteamWidget */
+    --grs4trans: #00000000;
+    --psswBg1: #202b3e30;
+    --psswBorderColor: #00000050;
+    --mainBgColor: #0000002e;
+  
+    /* Colors that never change */
+    --whColor: #fff;
+  
+    /* General Darker/Lighter Colors */
+    --lighterColor: #ffffff0f;
+    --darkerColor: #00000040;
+    --darkdarkerColor: #00000060;
+    --ddarkdarkerColor: #000000aa;
+    --categoryZebra: #00000020;
+    --titleBgColor: #0000002e;
+    --postCountBgColor: #0000002e;
+    --fIconBgColor: #0000002e;
+    --bgColorTransparent: #00000000;
+    --transBorderColor: #00000000;
+  
+    --bgTextColor1: #ffffff40;
+    --barBgColor1: #00000040;
+    --barBorderColor1: #00000050;
+    /*--aherf: var(--or2);*/
+    --aherf: #bcbcbc;
+    
+    /* Premium Colors */
+    --PremiumColor1: #c5d9eb;
+    --PremiumColor2: #c5d9eb59;
+    --PremiumColor3: #9DACBA1f;
+    --PremiumGradient: linear-gradient(90deg, var(--PremiumColor3) 0%, var(--darkerColor) 80%);
+    --PremiumBorder: 1px solid var(--PremiumColor2);
+    --PremiumBorderFull: 1px solid var(--PremiumColor1);
+    --PremiumBorderFullDashed: 1px dashed var(--PremiumColor1);
+    --sexyGradientPrem: linear-gradient(90deg, var(--bgColorTransparent), var(--PremiumColor1), var(--bgColorTransparent));
+    
+    /* Theme Helper Colors */
+    --ThemeHelperColor1: #A64D79;
+    --ThemeHelperColor2: #A64D7959;
+    --ThemeHelperColor3: #7E395B1f;
+    --ThemeHelperGradient: linear-gradient(90deg, var(--ThemeHelperColor3) 0%, var(--darkerColor) 80%);
+    --ThemeHelperBorder: 1px solid var(--ThemeHelperColor2);
+    --ThemeHelperBorderFull: 1px solid var(--ThemeHelperColor1);
+    --ThemeHelperBorderFullDashed: 1px dashed var(--ThemeHelperColor1);
+    --sexyGradientThemeHelper: linear-gradient(90deg, var(--bgColorTransparent), var(--ThemeHelperColor1), var(--bgColorTransparent));
+    
+    /* Banned Colors */
+    --BannedColor1: #660000;
+    --BannedColor2: #66000059;
+    --BannedColor3: #6600001f;
+    --BannedGradient: linear-gradient(90deg, var(--BannedColor3) 0%, var(--darkerColor) 80%);
+    --BannedBorder: 1px solid var(--BannedColor2);
+    --BannedBorderFull: 1px solid var(--BannedColor1);
+    --BannedBorderFullDashed: 1px dashed var(--BannedColor1);
+    --sexyGradientBanned: linear-gradient(90deg, var(--bgColorTransparent), var(--BannedColor1), var(--bgColorTransparent));
+    
+    /* Topic Buttons */
+    --Locked1: #E24050;
+    --Locked2: #AD1026;
+    --lockedGradient: linear-gradient(to bottom, var(--Offline), var(--Offline));
+    --bor1Sl1: 1px solid var(--Locked1);
+    --bor1Sl2: 1px solid var(--Locked2);
+    --bor1Dl1: 1px dashed var(--Locked1);
+    --bor1Dl2: 1px dashed var(--Locked2);
+    
+    /* Throphy Place Colors */
+    --1stPlace: #f7b71d;
+    --bor1S1st: 1px solid var(--1stPlace);
+    --bor1D1st: 1px dashed var(--1stPlace);
+    
+    --2ndPlace: #C0C0C0;
+    --bor1S2nd: 1px solid var(--2ndPlace);
+    --bor1D2nd: 1px dashed var(--2ndPlace);
+    
+    --3rdPlace: #CD7F32;
+    --bor1S3rd: 1px solid var(--3rdPlace);
+    --bor1D3rd: 1px dashed var(--3rdPlace);
+  
+    /* Warning Button Colors */
+    --Warn0: #f7b71d;
+    --Warn1: #f7a51d;
+    --Warn2: #f7931d;
+    --Warn3: #f7811d;
+    --Warn4: #f76f1d;
+    --Warn5: #f75d1d;
+    --Warn6: #f74b1d;
+    --Warn7: #f7391d;
+    --Warn8: #f7271d;
+    --Warn9: #f7151d;
+    --Warn10: #f70303;
+  
+    --Warn0v4shadow: #f7b71d73;
+    --Warn1v4shadow: #f7a51d73;
+    --Warn2v4shadow: #f7931d73;
+    --Warn3v4shadow: #f7811d73;
+    --Warn4v4shadow: #f76f1d73;
+    --Warn5v4shadow: #f75d1d73;
+    --Warn6v4shadow: #f74b1d73;
+    --Warn7v4shadow: #f7391d73;
+    --Warn8v4shadow: #f7271d73;
+    --Warn9v4shadow: #f7151d73;
+    --Warn10v4shadow: #f7030373;
+    
+    /* Variabile Culori Grupe */
+    --grAdmin: #FF0000;
+    --grComMan: #2283EA;
+    --grThemeHelp: #A64D79;
+    --grSuperMod: #FFA500;
+    --grMod: #2D993A;
+    --grProjMan: #00FFCC;
+    --grGraphic: #CBFF00;
+    --grPremium: #C5D9EB;
+    --grExStaff: #FFB778;
+    --grGirl: #FF005E;
+    --grMember: #808080;
+  }

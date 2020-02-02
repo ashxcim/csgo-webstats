@@ -1,0 +1,424 @@
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bl1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear,left top,left bottom,from(var(--or1)),to(var(--or2)));
+    background: linear-gradient(to bottom,var(--or1),var(--or2));
+    border-radius: 30px;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: -webkit-gradient(linear,left top,left bottom,from(var(--or1)),to(var(--or2)));
+    background: linear-gradient(to bottom,var(--or1),var(--or2));
+    border-radius: 30px;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+body {
+    font-family: var(--SaiCon);
+}
+
+button, input, optgroup, select, textarea {
+	font-family: var(--SaiCon);
+}
+
+.loadingtop {
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    top: -8px;
+}
+
+.zFooterColor {
+    color: var(--ddarkdarkerColor);
+    font-size: 18px;
+}
+
+.zForkMove {
+    margin-top: 4px;
+	position: absolute;
+	margin-left: -20px;
+}
+
+nav ul a {
+    color: var(--ddarkdarkerColor);
+    text-transform: uppercase;
+	-webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.zLogoShades {
+    color: var(--ddarkdarkerColor);
+    font-size: 44px;
+    margin-left: 10px;
+}
+
+nav ul a:hover {
+    color: var(--whColor);
+    background: var(--darkerColor);
+    border-radius: 5px;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+nav .brand-logo {
+	color: var(--ddarkdarkerColor);
+}
+
+.parallax-container {
+    background: #00000096;
+    border-bottom: var(--bor1Dor4s);
+    box-shadow: 0px 13px 9px -5px var(--darkerColor);
+    border-top: var(--bor1Dor2s);
+    height: 530px;
+}
+
+.page-footer {
+	padding-top: 0px;
+	color: var(--ddarkdarkerColor);
+	background-color: transparent;
+}
+
+.zGradient {
+    background: linear-gradient( 90deg, var(--or1), var(--or2));
+}
+
+.zTitle1 {
+    color: var(--or1);
+}
+
+.zTitle2 {
+    color: var(--or2);
+}
+
+.zBgPubZone {
+    background: var(--bg);
+}
+
+.tabulator {
+    background-color: transparent;
+}
+
+.tabulator .tabulator-header {
+    background-color: var(--darkdarkerColor);
+    margin-bottom: 10px;
+    border: var(--bor1Sddc);
+    box-shadow: 0px 7px 5px -5px var(--darkerColor);
+    border-radius: 5px;
+
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover {
+	cursor: pointer;
+    background-color: var(--darkerColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-content .tabulator-col-title{
+    color: var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=asc] .tabulator-col-content .tabulator-col-title {
+	color: var(--x07);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=desc] .tabulator-col-content .tabulator-col-title {
+	color: var(--x07);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover .tabulator-col-content .tabulator-col-title{
+    color: var(--x10);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-arrow {
+	border-top: none;
+	border-bottom: 6px solid var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none]:hover .tabulator-col-content .tabulator-arrow {
+	border-top: none;
+	border-bottom: 6px solid var(--x10);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=asc] .tabulator-col-content .tabulator-arrow {
+	border-top: none;
+	border-bottom: 6px solid var(--x07);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=asc]:hover .tabulator-col-content .tabulator-arrow {
+	border-top: none;
+	border-bottom: 6px solid var(--x10);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=desc] .tabulator-col-content .tabulator-arrow {
+	border-top: 6px solid var(--x07);
+	border-bottom: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=desc]:hover .tabulator-col-content .tabulator-arrow {
+	border-top: 6px solid var(--x10);
+	border-bottom: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    color: var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col:hover {
+    color: var(--x07);
+    cursor: not-allowed;
+    background-color: var(--darkerColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-header .tabulator-col {
+    background-color: transparent;
+}
+
+.tabulator .tabulator-tableHolder .tabulator-table {
+    background-color: var(--darkerColor);
+    border: var(--bor1Sdc);
+    border-radius: 5px;
+    box-shadow: 0px 7px 5px -5px var(--darkerColor);
+    margin-bottom: 5px;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+	background-color: var(--darkerColor);
+	cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:first-child:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabulator-row.tabulator-selectable:last-child:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell {
+    color: var(--ipsLight);
+    margin-bottom: -10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:last-child {
+    color: var(--ipsLight);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:first-child {
+    margin-right: -1px;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:last-child {
+    margin-right: -1px;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell {
+	color: var(--or1);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:first-child {
+    color: var(--x07);
+    text-align: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:nth-child(2) {
+	color: var(--x07);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:nth-child(3) {
+    color: var(--Counter);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:nth-child(4) {
+    color: var(--x10);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:nth-child(5) {
+    color: var(--Spec);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable .tabulator-cell:nth-child(6) {
+    color: var(--x09);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:first-child {
+    color: var(--Hx07);
+    text-align: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:nth-child(2) {
+	color: var(--Hx07);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:nth-child(3) {
+    color: var(--HCounter);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:nth-child(4) {
+    color: var(--Hx10);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:nth-child(5) {
+    color: var(--HSpec);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator-row.tabulator-selectable:hover .tabulator-cell:nth-child(6) {
+    color: var(--Hx09);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page-size {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 2px 5px;
+	border: var(--bor1Sddc);
+    border-radius: 5px;
+    background: var(--or1);
+    height: 36px;
+}
+
+select {
+	background-color: rgba(255,255,255,0.9);
+	width: auto;
+	padding: 5px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	height: 36px;
+}
+
+label {
+	color: var(--or2);
+}
+
+.tabulator .tabulator-footer .tabulator-page[data-page=last] {
+	border: var(--bor1Sdc);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page[data-page=next] {
+    border: var(--bor1Sdc);
+    border-left: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page {
+	display: inline-block;
+	margin: 0;
+	margin-top: 5px;
+	padding: 8px 12px;
+	border: var(--bor1Sdc);
+	border-right: none;
+    background: var(--darkerColor);
+    color: var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page:last-of-type {
+	display: inline-block;
+	margin: 0;
+	margin-top: 5px;
+	padding: 8px 12px;
+	border: var(--bor1Sdc);
+	border-right: var(--bor1Sdc);
+    background: var(--darkerColor);
+    color: var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page.active {
+	color: var(--or1);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page:not(.disabled):hover {
+	cursor: pointer;
+	background: var(--darkdarkerColor);
+	color: var(--or2);
+    transition: all 0.5s ease-in-out;
+}
+
+.tabulator .tabulator-footer .tabulator-page:disabled:hover {
+	opacity: .5;
+    background: var(--darkerColor);
+    color: var(--ipsLight);
+    transition: all 0.5s ease-in-out;
+    cursor: not-allowed;
+}
+
+.tabulator-row {
+    border-bottom: var(--bor1Dddc);
+}
+
+.tabulator-row:last-of-type {
+	border-bottom: none;
+}
+
+.input-field .prefix {
+	color: var(--ipsLight);
+}
+
+.input-field .prefix.active {
+	color: var(--or1);
+}
+
+.input-field>label {
+	color: var(--ipsLight);
+}
+
+.input-field>label:not(.label-icon).active {
+	color: var(--or1);
+}
+
+.zTextStyle {
+    color: var(--or2);
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+	border-bottom: 1px solid var(--ipsLight);
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid var(--or1);
+	-webkit-box-shadow: 0 1px 0 0 var(--or1);
+	box-shadow: 0 1px 0 0 var(--or1);
+}
