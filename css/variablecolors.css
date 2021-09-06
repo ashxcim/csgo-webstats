@@ -40,7 +40,7 @@
     --borderHiddenColor: #d4525285;
   
     /* Section Title's & Main Title's */
-    --bg: repeat fixed url(img/noisy-grey-bg.png);
+    --bg: repeat fixed url(../img/noisy-grey-bg.png);
   
     /* Footer */
     --bl1: #262626;

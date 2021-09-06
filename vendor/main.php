@@ -7,10 +7,10 @@ class main {
     private function db() {
         return new Medoo([
             'database_type' => 'mysql',
-            'database_name' => '', //<--- Database name
-            'server' => '', //<--- Database host
-            'username' => '', //<--- Database user
-            'password' => '', //<--- Database password
+            'database_name' => 'csgo_activity', //<--- Database name
+            'server' => 'localhost', //<--- Database host
+            'username' => 'csgo_activity', //<--- Database user
+            'password' => 'Florin12#', //<--- Database password
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_general_ci',
             'port' => 3306,
